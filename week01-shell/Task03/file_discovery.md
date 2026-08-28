@@ -2,13 +2,13 @@
 
 
 ## With /dev/null 
-![01](SCs/t3-01)
+![01](SCs/t3-01.png)
 
 
 
 
 ## Without /dev/null
-![02](SCs/t3-02)
+![02](SCs/t3-02.png)
 
 
 
