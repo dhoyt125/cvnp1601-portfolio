@@ -6,11 +6,11 @@ Purpose: Turn a large log into focused evidence
 
 # Filtered Output 
 
-![01](Photos/t4-01)
+![01](Photos/t4-01.png)
 
-![02](Photos/t4-02)
+![02](Photos/t4-02.png)
 
-![03](Photos/t4-03)
+![03](Photos/t4-03.png)
 
 
 ## Explanation of [ > , >>] and the problem of [>]
