@@ -17,7 +17,7 @@ Test
 Test
 
 ##/usr/bin
-![usrbin](usrbin.ping)
+![usrbin](usrbin.png)
 Test
 
 ## Security Note
