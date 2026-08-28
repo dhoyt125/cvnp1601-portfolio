@@ -1,0 +1,52 @@
+2026-08-27T20:00:53.995326+00:00 cvnp1601-lab multipathd[504]: uevent trigger error
+2026-08-27T20:00:53.996713+00:00 cvnp1601-lab systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2026-08-27T20:00:53.996726+00:00 cvnp1601-lab systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2026-08-27T20:00:54.025179+00:00 cvnp1601-lab kernel: unchecked MSR access error: RDMSR from 0x852 at rIP: 0xffffffffb00c8a87 (native_read_msr+0x7/0x50)
+2026-08-27T20:00:54.041026+00:00 cvnp1601-lab kernel: RAS: Correctable Errors collector initialized.
+2026-08-27T20:00:54.855109+00:00 cvnp1601-lab snapd[1077]: helpers.go:190: error trying to compare the snap system key: system-key missing on disk
+2026-08-27T20:00:55.194617+00:00 cvnp1601-lab multipathd[504]: uevent trigger error
+2026-08-27T20:01:05.140936+00:00 cvnp1601-lab multipathd[504]: uevent trigger error
+2026-08-27T20:01:15.153307+00:00 cvnp1601-lab multipathd[504]: uevent trigger error
+2026-08-27T20:19:08.357480+00:00 cvnp1601-lab multipathd[482]: uevent trigger error
+2026-08-27T20:19:08.399237+00:00 cvnp1601-lab kernel: unchecked MSR access error: RDMSR from 0x852 at rIP: 0xffffffffba2c8a87 (native_read_msr+0x7/0x50)
+2026-08-27T20:19:08.403561+00:00 cvnp1601-lab systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2026-08-27T20:19:08.403596+00:00 cvnp1601-lab systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2026-08-27T20:19:08.429464+00:00 cvnp1601-lab kernel: RAS: Correctable Errors collector initialized.
+2026-08-27T20:19:14.940138+00:00 cvnp1601-lab multipathd[482]: uevent trigger error
+2026-08-27T20:19:24.936185+00:00 cvnp1601-lab multipathd[482]: uevent trigger error
+2026-08-27T20:19:34.943615+00:00 cvnp1601-lab multipathd[482]: uevent trigger error
+2026-08-28T04:06:33.305883+00:00 cvnp1601-lab multipathd[480]: uevent trigger error
+2026-08-28T04:06:33.306581+00:00 cvnp1601-lab systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2026-08-28T04:06:33.306592+00:00 cvnp1601-lab systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2026-08-28T04:06:33.339062+00:00 cvnp1601-lab kernel: unchecked MSR access error: RDMSR from 0x852 at rIP: 0xffffffffb9ac8a87 (native_read_msr+0x7/0x50)
+2026-08-28T04:06:33.364743+00:00 cvnp1601-lab kernel: RAS: Correctable Errors collector initialized.
+2026-08-28T04:06:33.991792+00:00 cvnp1601-lab udisksd[881]: Error getting 'loop0' information: Failed to get backing file of the device loop0: Failed to read from file “/sys/class/block/loop0/loop/backing_file”: No such device (g-bd-loop-error-quark, 1)
+2026-08-28T04:06:40.590408+00:00 cvnp1601-lab multipathd[480]: uevent trigger error
+2026-08-28T04:06:50.596847+00:00 cvnp1601-lab multipathd[480]: uevent trigger error
+2026-08-28T04:07:00.597849+00:00 cvnp1601-lab multipathd[480]: uevent trigger error
+2026-08-28T16:14:58.687799+00:00 cvnp1601-lab multipathd[480]: uevent trigger error
+2026-08-28T16:14:58.688100+00:00 cvnp1601-lab systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2026-08-28T16:14:58.688212+00:00 cvnp1601-lab systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2026-08-28T16:14:58.722688+00:00 cvnp1601-lab kernel: unchecked MSR access error: RDMSR from 0x852 at rIP: 0xffffffff990c8a87 (native_read_msr+0x7/0x50)
+2026-08-28T16:14:58.753586+00:00 cvnp1601-lab kernel: RAS: Correctable Errors collector initialized.
+2026-08-28T16:15:05.949143+00:00 cvnp1601-lab multipathd[480]: uevent trigger error
+2026-08-28T16:15:15.949633+00:00 cvnp1601-lab multipathd[480]: uevent trigger error
+2026-08-28T16:15:25.955723+00:00 cvnp1601-lab multipathd[480]: uevent trigger error
+2026-08-28T22:25:20.465296+00:00 cvnp1601-lab multipathd[482]: uevent trigger error
+2026-08-28T22:25:20.470071+00:00 cvnp1601-lab systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2026-08-28T22:25:20.470095+00:00 cvnp1601-lab systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2026-08-28T22:25:20.486060+00:00 cvnp1601-lab kernel: unchecked MSR access error: RDMSR from 0x852 at rIP: 0xffffffffa0cc8a87 (native_read_msr+0x7/0x50)
+2026-08-28T22:25:20.501658+00:00 cvnp1601-lab kernel: RAS: Correctable Errors collector initialized.
+2026-08-28T22:25:27.765300+00:00 cvnp1601-lab multipathd[482]: uevent trigger error
+2026-08-28T22:25:37.774101+00:00 cvnp1601-lab multipathd[482]: uevent trigger error
+2026-08-28T22:25:47.772680+00:00 cvnp1601-lab multipathd[482]: uevent trigger error
+2026-08-27T20:00:54.025185+00:00 cvnp1601-lab kernel: Speculative Return Stack Overflow: WARNING: See https://kernel.org/doc/html/latest/admin-guide/hw-vuln/srso.html for mitigation options.
+2026-08-27T20:00:54.926259+00:00 cvnp1601-lab snapd[1077]: autorepair.go:177: WARNING: the system booted with an old initrd without unlocked status reporting
+2026-08-27T20:19:08.399247+00:00 cvnp1601-lab kernel: Speculative Return Stack Overflow: WARNING: See https://kernel.org/doc/html/latest/admin-guide/hw-vuln/srso.html for mitigation options.
+2026-08-27T20:19:11.360381+00:00 cvnp1601-lab snapd[824]: autorepair.go:177: WARNING: the system booted with an old initrd without unlocked status reporting
+2026-08-28T04:06:33.339069+00:00 cvnp1601-lab kernel: Speculative Return Stack Overflow: WARNING: See https://kernel.org/doc/html/latest/admin-guide/hw-vuln/srso.html for mitigation options.
+2026-08-28T04:06:34.759924+00:00 cvnp1601-lab snapd[842]: autorepair.go:177: WARNING: the system booted with an old initrd without unlocked status reporting
+2026-08-28T16:14:58.729304+00:00 cvnp1601-lab kernel: Speculative Return Stack Overflow: WARNING: See https://kernel.org/doc/html/latest/admin-guide/hw-vuln/srso.html for mitigation options.
+2026-08-28T16:14:59.840494+00:00 cvnp1601-lab snapd[822]: autorepair.go:177: WARNING: the system booted with an old initrd without unlocked status reporting
+2026-08-28T22:25:20.486256+00:00 cvnp1601-lab kernel: Speculative Return Stack Overflow: WARNING: See https://kernel.org/doc/html/latest/admin-guide/hw-vuln/srso.html for mitigation options.
+2026-08-28T22:25:22.023389+00:00 cvnp1601-lab snapd[823]: autorepair.go:177: WARNING: the system booted with an old initrd without unlocked status reporting
