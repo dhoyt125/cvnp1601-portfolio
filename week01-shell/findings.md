@@ -16,7 +16,7 @@ Test
 ![home](home.png)
 Test
 
-##/usr/bin
+## /usr/bin
 ![usrbin](usrbin.png)
 Test
 
