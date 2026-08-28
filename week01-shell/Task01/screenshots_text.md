@@ -1,23 +1,23 @@
 # System orientation screenshots captured and annotated
 
 ## /etc
-![etc](Task01/etc.png)
+![etc](etc.png)
 Contains configuration files that control how programs and services behave.
 
 ## /var/log 
-![varlog](Task01/varlog.png)
+![varlog](varlog.png)
 Stores system and application log files.
 
 ## /tmp
-![tmp](Task01/tmp.png)
+![tmp](tmp.png)
 Holds temporary files created by programs.
 
 ## /home
-![home](Task01/home.png)
+![home](home.png)
 Personal directories for each user.
 
 ## /usr/bin
-![usrbin](Task01/usrbin.png)
+![usrbin](usrbin.png)
 Executable programs and commands for all users.
 
 ## Security Note
