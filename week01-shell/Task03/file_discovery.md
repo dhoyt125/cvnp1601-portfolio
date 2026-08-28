@@ -14,9 +14,9 @@
 
 ## Explanation 
 
-We use "find" search to not waste time adn cuase mistakes. Linux has two different output streams "stdout" and "stderr".
-stdout being normal messages and stderr being error messages. Error messages does always mean its a bad thing, sometimes
-the system is protecting sensitive paths. To save time and we sometime redirect stderr(error messages) to a virtual trash can
+We use "find" search to not waste time and cause mistakes. Linux has two different output streams "stdout" and "stderr".
+stdout being normal messages and stderr being error messages. Error messages doesn't always mean its a bad thing, sometimes
+the system is protecting sensitive paths. To save time, we sometime redirect stderr(error messages) to a virtual trash can
 using "/dev/null"
 
 
