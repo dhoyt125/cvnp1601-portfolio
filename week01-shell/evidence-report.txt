@@ -1,0 +1,43 @@
+=== CVNP1601-W01 Evidence Report ===
+Generated : 2026-09-01 00:01:56
+Host      : cvnp1601-lab
+Week      : 01
+Folder    : /home/dhoyt/cvnp1601-portfolio/week01-shell
+
+[SHELL & USER CONTEXT]
+  user  : dhoyt
+  id    : uid=1000(dhoyt) gid=1000(dhoyt) groups=1000(dhoyt),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),101(lxd)
+  shell : /bin/bash
+  pwd   : /home/dhoyt/cvnp1601-portfolio/week01-shell
+
+[FILESYSTEM ORIENTATION — key FHS directories]
+  drwxr-xr-x 108 root root 4096 Aug 27 20:00 /etc
+  drwxrwxr-x 10 root syslog 4096 Sep  1 00:00 /var/log
+  drwxr-xr-x 3 root root 4096 Aug 27 19:56 /home
+  drwxr-xr-x 2 root root 36864 Aug 27 19:58 /usr/bin
+  drwxrwxrwt 14 root root 4096 Sep  1 00:00 /tmp
+
+[LOG DIRECTORY SAMPLE — /var/log (first 10 entries)]
+  total 4.0M
+  -rw-r--r--  1 root      root               0 Sep  1 00:00 alternatives.log
+  -rw-r--r--  1 root      root             36K Aug 27 19:59 alternatives.log.1
+  -rw-r-----  1 root      adm                0 Aug 27 20:00 apport.log
+  drwxr-xr-x  2 root      root            4.0K Sep  1 00:00 apt
+  -rw-r-----  1 syslog    adm              51K Aug 31 23:59 auth.log
+  -rw-r--r--  1 root      root             60K Feb 10  2026 bootstrap.log
+  -rw-rw----  1 root      utmp               0 Sep  1 00:00 btmp
+  -rw-rw----  1 root      utmp            3.0K Aug 28 22:51 btmp.1
+  -rw-r-----  1 syslog    adm              71K Aug 27 20:00 cloud-init.log
+
+[REQUIRED FILES]
+  README.md : NOT FOUND
+  Task05/week1-cheatsheet.txt/week1-cheatsheet.txt : FOUND (1559 bytes)
+  Task04/errors.txt : FOUND (7626 bytes)
+  tech-lead-note.md : FOUND (599 bytes)
+  troubleshooting-narrative.md : FOUND (1186 bytes)
+  Task06/week1-diagnosis.md : FOUND (837 bytes)
+
+[SECRET SCAN]
+  No obvious secret/token patterns detected. Still manually review every file before committing.
+
+Commit this file (evidence-report.txt) to your GitHub repo under week01-shell/.
