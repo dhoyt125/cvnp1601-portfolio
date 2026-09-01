@@ -30,7 +30,7 @@ Folder    : /home/dhoyt/cvnp1601-portfolio/week01-shell
   -rw-r-----  1 syslog    adm              71K Aug 27 20:00 cloud-init.log
 
 [REQUIRED FILES]
-  README.md : NOT FOUND
+  README.md : FOUND (Out of directory)
   Task05/week1-cheatsheet.txt/week1-cheatsheet.txt : FOUND (1559 bytes)
   Task04/errors.txt : FOUND (7626 bytes)
   tech-lead-note.md : FOUND (599 bytes)
