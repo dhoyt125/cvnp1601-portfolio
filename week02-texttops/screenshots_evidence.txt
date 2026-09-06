@@ -3,6 +3,11 @@
 ":q!" is a command inside of vim that exit the file without saving since the last save.
 
 
+Double grep -v pipeline has two stages, one remvoes lines matching one pattern like blan lines, and the second 
+removes lines matching another pattern like comments starting with "#". Chaining them together 
+strips out both noises to clean up the output. 
+
+ 
 
 
 
