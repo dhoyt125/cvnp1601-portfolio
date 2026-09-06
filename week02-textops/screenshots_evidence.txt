@@ -7,6 +7,11 @@ Double grep -v pipeline has two stages, one remvoes lines matching one pattern l
 removes lines matching another pattern like comments starting with "#". Chaining them together 
 strips out both noises to clean up the output. 
 
+
+"-F:" tells "awk" to use colon as the separator insdead of a blank space between the fields. Without the
+use of "-F:" awk would treat the entire line one single field. 
+
+
  
 
 
