@@ -9,6 +9,8 @@ Coursework and evidence for CVNP1601. One folder per week.
 Mapped a Linux directory structure over SSH, filtered log output with grep and safe 
 redirects, and documented a break/fix for an overwritten incident.txt file.
 
+I provisioned a Linux user, added targeted group membership, and granted one sudo command without giving full root access.
+
 
 
 
