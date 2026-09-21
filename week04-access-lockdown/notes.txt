@@ -1,0 +1,33 @@
+# TSK 1
+	/etc/shadow - Owner write only, keeps password hashes locked to the root. 
+	/user/bin/passwd - SUID root lets any user run this with root privileges. 
+	/project - Owner write only, readable for others
+	/tmp - World writeable but protected.
+
+
+			rw- rw- rw- (666)
+		      - --- --- -w- (002)
+		       -------------
+			rw- rw- r-- = 664
+
+# TSK 2 
+	750 
+	7 - Owner - Read, write, execute
+	5 - Group - Read, execute
+	0 - Other - No access 
+
+# TSK 3 
+	Only the file's owner (or root) can remove it, regardless of who else has write access.
+	This lets everyone in /project collaborate and create files freely while preventing any team member 
+	(or contractor) from deleting or overwriting someone else's work.
+
+# TSK 4 
+	Without SGID, new files inherit the creator's personal primary group instead of 
+	/project's developers group, so teammates can end up locked out of files their own colleagues just created.
+
+
+# TSK 5
+	Standard permissions give you only one group slot per directory, 
+	so everyone sharing that group gets identical access,you can't grant one contractor a 
+	different, narrower permission level without changing the group structure for everyone. ACLs let you add a permission entry 
+	for one specific user on top of the existing group.
