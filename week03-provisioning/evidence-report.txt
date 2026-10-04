@@ -1,0 +1,28 @@
+=== CVNP1601-W03 Evidence Report ===
+Generated : 2026-09-12 18:24:52
+Host      : cvnp1601-lab
+Week      : 03
+Folder    : /home/dhoyt/cvnp1601-portfolio/week03-provisioning
+
+[DEVUSER ACCOUNT STATE — id devuser]
+  devuser not present on this host: id: ‘devuser’: no such user
+
+[DEVELOPERS GROUP — grep developers /etc/group]
+  developers group not found on this host
+
+[SUDO -l FOR DEVUSER]
+  Query failed or requires a password in this shell: sudo: unknown user devuser
+sudo: error initializing audit plugin sudoers_audit
+
+[REQUIRED FILES]
+  README.md : FOUND (4629 bytes)
+  provisioning-summary.md : FOUND (2400 bytes)
+  tech-lead-note.md : FOUND (953 bytes)
+  troubleshooting-narrative.md : FOUND (1582 bytes)
+  week3-diagnosis.md : FOUND (874 bytes)
+
+[SECRET SCAN]
+  WARNING: possible secret/token pattern found in README.md — review before committing (pattern: passwd[[:space:]]*[:=][[:space:]]*[^[:space:]]+)
+  WARNING: possible secret/token pattern found in tech-lead-note.md — review before committing (pattern: passwd[[:space:]]*[:=][[:space:]]*[^[:space:]]+)
+
+Commit this file (evidence-report.txt) to your GitHub repo under week03-provisioning/.

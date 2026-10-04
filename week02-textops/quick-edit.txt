@@ -1,0 +1,13 @@
+This is using nano, I am writing a sentence. Nano is better than vim in my opinion. 
+
+
+
+#
+
+Nano is better than vim when you need simple and quick edits of a txt file. 
+
+
+
+
+
+

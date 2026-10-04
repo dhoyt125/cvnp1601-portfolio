@@ -1,0 +1,67 @@
+pwd 
+	Flags - N/A
+	Example - pwd
+	Risk - Prints current path 
+
+
+ls 
+	Flags - -l (Long Format), -a (Show Hidden Files), -h (Human Readable Size Text)
+	Example - ls -lh /var/log
+	Risk - Read Only, Lists the content of a directory  
+
+cd 
+
+	Flags - cd - , cd .., cd ~, 
+	Example - cd /var/log 
+	Risk - Very low, can break scripts that assume if the path exist, Changes the current working directory
+
+
+find 
+
+	Flags - -name, -type, -mtime
+	Example - find -name "*.txt"
+	Risk - Can be dangerous with -delete, but pretty simple to use, Searches a directory tree for the file with the given criteria
+
+grep 
+
+	Flags - -i, -r, -n, -v 
+	Example - grep -i "error" /var/log 
+	Risk - Read only, Searches text for lines matching a pattern
+
+head 
+
+	Flags - -n
+	Example - head -n 10 file.txt
+	Risk - Ready only, Prints the first lines of a file 
+
+wc
+
+	Flags - -l, -w, -c 
+	Example - wc -l | grep "*.txt"
+	Risk - Read only, Counts lines, or bytes in a file  
+
+Pipe(|)
+
+	Flags - N/A
+	Example - ls -la | grep "*.txt"
+	Risk - Low, Sends the output of one command into the next command as input 
+
+Redirect(>)
+
+	Flags - None 
+	Example - echo "Hello World!" > file.txt 
+	Risk - Overwrites the file with no warnings (Lost of data), sends a command output to a file
+
+Append(>>)
+
+	Flags - None
+	Example - echo "Hello World!" >> file.txt
+	Risk - Safer than ">", sends a command output to a file. adding it after the existing data 
+
+stderr suppression(2>/dev/null)
+	Flags - None 
+	Example - find -name "*.conf" 2>/dev/null
+	Risk - Hides genuine error logs with other expected noise, 
+	
+
+

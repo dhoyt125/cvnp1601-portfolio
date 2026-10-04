@@ -1,0 +1,26 @@
+-rw-r-----  1 root shadow      1047 Sep 21 01:33 /etc/shadow
+-rwsr-xr-x  1 root root       64152 May 30  2024 /usr/bin/passwd
+
+/project:
+total 8
+drwxr-xr-x  2 root developers 4096 Sep 21 01:33 .
+drwxr-xr-x 24 root root       4096 Sep 21 01:33 ..
+
+/tmp:
+total 60
+drwxrwxrwt 15 root root 4096 Sep 21 01:34 .
+drwxr-xr-x 24 root root 4096 Sep 21 01:33 ..
+drwxrwxrwt  2 root root 4096 Sep 21 01:20 .font-unix
+drwxrwxrwt  2 root root 4096 Sep 21 01:20 .ICE-unix
+drwx------  2 root root 4096 Sep 21 01:20 snap-private-tmp
+drwx------  3 root root 4096 Sep 21 01:31 systemd-private-d200a0a29fc54b70a08f17567a617036-fwupd.service-k9sTqY
+drwx------  3 root root 4096 Sep 21 01:20 systemd-private-d200a0a29fc54b70a08f17567a617036-ModemManager.service-8TZ11l
+drwx------  3 root root 4096 Sep 21 01:20 systemd-private-d200a0a29fc54b70a08f17567a617036-polkit.service-82VF1R
+drwx------  3 root root 4096 Sep 21 01:20 systemd-private-d200a0a29fc54b70a08f17567a617036-systemd-logind.service-SpohZ7
+drwx------  3 root root 4096 Sep 21 01:20 systemd-private-d200a0a29fc54b70a08f17567a617036-systemd-resolved.service-4G7vDm
+drwx------  3 root root 4096 Sep 21 01:20 systemd-private-d200a0a29fc54b70a08f17567a617036-systemd-timesyncd.service-VCysgi
+drwx------  3 root root 4096 Sep 21 01:31 systemd-private-d200a0a29fc54b70a08f17567a617036-upower.service-C7uack
+drwx------  2 root root 4096 Sep 21 01:20 vmware-root_750-2957714542
+drwxrwxrwt  2 root root 4096 Sep 21 01:20 .X11-unix
+drwxrwxrwt  2 root root 4096 Sep 21 01:20 .XIM-unix
+0002
